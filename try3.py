@@ -34,6 +34,7 @@ for y in range(0, h, 2):
 
 outimg = dms_img
 outimg[outimg < 0] = 0
+outimg = outimg / outimg.max()
 outimg = outimg * 255
 imageio.imwrite("try3.png", outimg.astype('uint8'))
 
