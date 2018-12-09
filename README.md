@@ -35,7 +35,12 @@ Description
 
   try5.py  
     Add gamma correction.  
-    Output file is try5.png  .
+    Output file is try5.png.  
+
+  try6.py  
+    Add Color marix correction used raw.rgb_xyz_matrix.  
+    Output file is try6.png.  
+    But rgb_xyz_matrix is not used for.  
 
 Requirement  
   Python3  
